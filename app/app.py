@@ -54,7 +54,7 @@ init_db()
 def index():
     return {
         "service": "notes-app",
-        "message": "Hello from the notes app, now via a pull request!",
+        "message": "Hello from the notes app, now on Kubernetes!",
         "served_by": socket.gethostname(),
     }
 
